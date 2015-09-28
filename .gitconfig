@@ -1,0 +1,33 @@
+[user]
+	name = Nirperm
+	email = nirperm@gmail.com
+[core]
+	editor = vim -c \"set fenc=utf-8\"
+	precomposeunicode = true
+	quotepath = false
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = auto
+[push]
+	default = simple
+[alias]
+	co = checkout
+	st = status
+	di = diff
+	pl = pull
+	ct = commit
+	ad = add
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[merge]
+	tool = vimdiff
+[mergetool]
+	prompt = false
+[credential]
+	helper = osxkeychain
+[credential "https://github.com"]
+	username = nirperm
