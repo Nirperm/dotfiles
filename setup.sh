@@ -3,7 +3,7 @@
 # dotfiles
 ln -vsf ~/dotfiles/.vimrc ~/
 ln -vsf ~/dotfiles/.gitconfig ~/
-ln -vsf ~/dotfiles/.basg_profile ~/
+ln -vsf ~/dotfiles/.bash_profile ~/
 
 # NeoBundle(vim)
 mkdir -p ~/.vim/bundle

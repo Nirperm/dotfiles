@@ -1,0 +1,18 @@
+"-------------------------------------------------------------------------------
+" 検索設定 Search
+"-------------------------------------------------------------------------------
+
+set hlsearch " 検索結果をハイライト表示する
+set incsearch " 検索ワードの最初の文字を入力した時点で検索を開始する
+set ignorecase "検索時に大文字小文字を無視する
+set smartcase " 検索文字列に大小文字列が含まれている場合は区別して検索
+set wrapscan " 最後まで検索したら先頭へ戻る
+
+command! -nargs=1 Gr :Rgrep <args> *<Enter><CR> " :Gr <args>でカレントディレクトリ以下を再帰的にgrepする
+command! -nargs=1 Gb :GrepBuffer <args> " :Gb <args> でGrepBufferする
+nmap <ESC><ESC> :nohlsearch<CR><ESC> " Escの2回押しでハイライト消去
+nnoremap <C-g><C-b> :<C-u>GrepBuffer<Space><C-r><C-w><Enter> " カーソル下の単語をGrepBufferする
+nnoremap <silent> <C-g><C-r> :<C-u>Rgrep<Space><C-r><C-w> *<Enter><CR> " カーソル下の単語をgrepする
+
+let Grep_Skip_Dirs = '.svn .git'
+let Grep_Skip_Files = '*.bak *~'

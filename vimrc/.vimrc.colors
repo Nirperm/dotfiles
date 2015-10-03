@@ -1,0 +1,11 @@
+"-------------------------------------------------------------------------------
+" カラー設定 Colors
+"-------------------------------------------------------------------------------
+
+colorscheme molokai " カラースキーマの指定
+highlight LineNr ctermfg=darkgreen " 行番号の色
+let g:molokai_original = 1
+let g:rehash256 = 1
+set background=dark
+syntax on" 構文毎に文字色を変化させる
+syntax enable "シンタックスハイライトを有効にする
