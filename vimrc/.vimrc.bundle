@@ -120,7 +120,7 @@ NeoBundle 'dbext.vim'
 " Rails
 "--------------------------------------
 NeoBundle "rails.vim"
-NeoBundle 'othree/html5.vim' " Rails向けのコマンドを提供する
+" NeoBundle 'othree/html5.vim' " Rails向けのコマンドを提供する
 
 NeoBundle 'tpope/vim-rails', { 'autoload' : {
       \ 'filetypes' : ['haml', 'ruby', 'eruby'] }}
@@ -159,7 +159,7 @@ NeoBundle 'AndrewRadev/switch.vim'
 
 " Html
 NeoBundle 'mattn/emmet-vim'
-NeoBundle 'taichouchou2/html5.vim'
+" NeoBundle 'taichouchou2/html5.vim'
 
 " Haml
 NeoBundle 'tpope/vim-haml'
