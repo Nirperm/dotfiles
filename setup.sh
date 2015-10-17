@@ -1,4 +1,4 @@
-#! /usr/bin/bash -v
+# #!/bin/sh
 
 # dotfiles
 ln -vsf ~/dotfiles/.vimrc ~/
