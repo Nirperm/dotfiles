@@ -4,6 +4,7 @@
 ln -vsf ~/dotfiles/.vimrc ~/
 ln -vsf ~/dotfiles/.gitconfig ~/
 ln -vsf ~/dotfiles/.bash_profile ~/
+ln -vsf ~/dotfiles/.tmux.conf ~/
 
 # NeoBundle(vim)
 mkdir -p ~/.vim/bundle
