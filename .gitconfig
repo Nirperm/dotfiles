@@ -18,7 +18,9 @@
 	di = diff
 	pl = pull
 	ct = commit
-	ad = add
+  ad = add
+  br = branch
+  alias = !git config --get-regexp '^alias\\.' | sed 's/alias\\.\\([^ ]*\\) \\(.*\\)/\\1\\\t => \\2/' | sort
 [diff]
 	tool = vimdiff
 [difftool]

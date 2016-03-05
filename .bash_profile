@@ -9,4 +9,4 @@ eval "$(rbenv init -)"
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 eval "$(pyenv init -)"
 
-# alias rm="trash"
+alias rm="trash"
