@@ -5,6 +5,8 @@
 	editor = vim -c \"set fenc=utf-8\"
 	precomposeunicode = true
 	quotepath = false
+	autoCRLF = false
+	whitespace = cr-at-eol
 [color]
 	diff = auto
 	status = auto
@@ -33,3 +35,9 @@
 	helper = osxkeychain
 [credential "https://github.com"]
 	username = nirperm
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
