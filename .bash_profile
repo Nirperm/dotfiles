@@ -24,7 +24,8 @@ export PATH=$PATH:/Users/kurt/Library/Android/sdk/platform-tools
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 #pyenv
-export PATH="$HOME/.pyenv/bin:$PATH"
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/shims:$PATH"
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 #eval "$(pyenv init -)"
 
