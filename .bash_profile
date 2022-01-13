@@ -5,7 +5,7 @@ export PATH="/usr/local/mysql/bin:$PATH"
 export PATH=/usr/local/bin:$PATH
 
 # rm alias trash app
-alias rm="rmtrash"
+alias rm=trash
 
 #direnv
 export EDITOR=vim
